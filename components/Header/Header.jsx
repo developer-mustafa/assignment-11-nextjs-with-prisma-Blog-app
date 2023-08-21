@@ -22,14 +22,14 @@ const Header = () => {
       <div className="container-fluid header bg-[#2D3745] px-4 py-2 shadow shadow-lg fixed top-0 w-full">
         <div className="container mx-auto">
           <header className="flex items-center justify-between relative">
-            <div className="logo">
+            <div className="">
               <Link href={"/"}>
                 <Image
-                  src="/surobhi.png"
+                  src="/logo.png"
                   width="80"
                   height="80"
                   alt="A picture of Logo"
-                  className="md:w-[80px] w-[50px]"
+                  className="md:w-[80px] w-[50px] rounded-full"
                 />
               </Link>
             </div>
@@ -97,9 +97,9 @@ const Header = () => {
               <h2 className="text-lg text-slate-300">Contact Details</h2>
               <a
                 className="text-slate-300"
-                href={"mailto:ashiqulshouravdev@gmail.com"}
+                href={"mailto:mustafarahman792@gmail.com"}
               >
-                ashiqulshouravdev@gmail.com
+                mustafarahman792@gmail.com
               </a>
             </div>
           </header>

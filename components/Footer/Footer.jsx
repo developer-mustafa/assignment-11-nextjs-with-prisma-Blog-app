@@ -3,7 +3,7 @@ const Footer = () =>{
         <>
             <div className="container-fluid footer p-4">
                 <div className="container mx-auto">
-                    <p className="text-center">&copy; কপিরাইট বাই সুরভী</p>
+                    <p className="text-center">&copy; কপিরাইট কিশলয় টি</p>
                 </div>
             </div>
         </>

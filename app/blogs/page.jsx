@@ -11,6 +11,8 @@ export default function Blogs() {
     setPosts(blogPosts);
   }, []);
 
+  
+
   return (
     <>
       <div className="blogs">
